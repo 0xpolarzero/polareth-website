@@ -1,0 +1,19 @@
+# Allow all crawlers
+User-agent: *
+Allow: /
+
+# Disallow API endpoints to prevent rate limit issues
+Disallow: /api/
+Disallow: /loader/
+
+# Allow static assets
+Allow: /build/
+Allow: /assets/
+Allow: /images/
+Allow: /og-image.png
+
+# Sitemap location
+Sitemap: https://polareth.org/sitemap.xml
+
+# Crawl delay to prevent overwhelming the server
+Crawl-delay: 10
