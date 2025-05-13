@@ -32,7 +32,7 @@ export const RepositoryCard = ({ repository, loading }: { repository: Repository
 
           <p className="text-primary/90 text-justify text-sm sm:text-base">{repository.description}</p>
 
-          <div className="flex flex-wrap gap-2">
+          <div className="flex flex-wrap gap-1 sm:gap-x-2">
             {loading ? (
               <>
                 <Skeleton className="h-6 w-20" />

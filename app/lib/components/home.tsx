@@ -8,7 +8,7 @@ import { Icons } from "./icons";
 
 export const Home = ({ data: { repositories } }: { data: ApiGithubResponse }) => {
   return (
-    <div className="flex h-screen flex-col items-center gap-4 px-8 py-4">
+    <div className="font-main flex h-screen flex-col items-center gap-4 px-8 py-4">
       <div className="bg-pattern" />
       <div className="text-foreground bg-muted/50 flex items-center gap-2 rounded-xs p-1 text-sm backdrop-blur-lg">
         <div className="flex items-center gap-1">
