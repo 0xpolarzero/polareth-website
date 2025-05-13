@@ -1,0 +1,11 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(npm create:*)",
+      "Bash(npx tailwindcss init:*)",
+      "Bash(node_modules/.bin/tailwindcss:*)",
+      "Bash(mkdir:*)"
+    ],
+    "deny": []
+  }
+}
